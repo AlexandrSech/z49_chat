@@ -6,7 +6,7 @@ app.secret_key = b'\xcf\xb1\xbf\x92\x81\xbc\xbe\x9aB\xe0X\xdb$\xb0\x01\xffz0\x96
 mess_list = {"rows": []}
 message_template = {'u_name': '', 'time': '', 'message_text': ''}
 
-
+# 123
 
 @app.route('/')
 def index():
