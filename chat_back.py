@@ -42,7 +42,4 @@ def logout():
 
 
 if __name__ == '__main__':
-    import socket
-    ip_address = socket.gethostbyname(socket.gethostname())
-
-    app.run(ip_address, 9942)
+    app.run('54.154.193.234', 9942)
